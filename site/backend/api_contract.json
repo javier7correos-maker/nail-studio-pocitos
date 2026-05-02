@@ -1,0 +1,160 @@
+{
+  "service_name": "Forge Reservas",
+  "service_slug": "nail-studio-pocitos-reservas",
+  "service_summary": "API minima para capturar reservas, validar disponibilidad basica y reenviar solicitudes.",
+  "backend_mode": "booking_intake",
+  "project_type": "portfolio",
+  "project_slug": "nail-studio-pocitos",
+  "project_id": "4ad64788-53b9-4711-9e85-2ee52fd562bd",
+  "task_id": "eb5de6d6-6389-4c4e-815d-69705b2b6a8a",
+  "primary_resource": "reservas",
+  "entity": {
+    "name": "reserva",
+    "label": "Reservas",
+    "fields": [
+      {
+        "name": "nombre",
+        "type": "string",
+        "required": true,
+        "description": "Nombre del cliente"
+      },
+      {
+        "name": "email",
+        "type": "email",
+        "required": true,
+        "description": "Email del cliente"
+      },
+      {
+        "name": "fecha",
+        "type": "string",
+        "required": true,
+        "description": "Fecha solicitada"
+      },
+      {
+        "name": "hora",
+        "type": "string",
+        "required": true,
+        "description": "Hora solicitada"
+      },
+      {
+        "name": "servicio",
+        "type": "string",
+        "required": true,
+        "description": "Servicio o tipo de reserva"
+      },
+      {
+        "name": "notas",
+        "type": "string",
+        "required": false,
+        "description": "Notas opcionales"
+      }
+    ]
+  },
+  "routes": [
+    {
+      "name": "health",
+      "method": "GET",
+      "path": "/health",
+      "kind": "health",
+      "resource": "reservas",
+      "description": "Salud del servicio backend",
+      "required_fields": [],
+      "optional_fields": [],
+      "forward_env": ""
+    },
+    {
+      "name": "meta",
+      "method": "GET",
+      "path": "/api/meta",
+      "kind": "meta",
+      "resource": "reservas",
+      "description": "Resumen del contrato operativo y readiness de entorno",
+      "required_fields": [],
+      "optional_fields": [],
+      "forward_env": ""
+    },
+    {
+      "name": "submit",
+      "method": "POST",
+      "path": "/api/reservas",
+      "kind": "submit",
+      "resource": "reservas",
+      "description": "Valida y acepta el payload principal del MVP",
+      "required_fields": [
+        "nombre",
+        "email",
+        "fecha",
+        "hora",
+        "servicio"
+      ],
+      "optional_fields": [
+        "notas"
+      ],
+      "forward_env": "FORWARD_WEBHOOK_URL"
+    },
+    {
+      "name": "recent",
+      "method": "GET",
+      "path": "/api/reservas/recent",
+      "kind": "recent",
+      "resource": "reservas",
+      "description": "Ultimos envios aceptados para QA y trazabilidad",
+      "required_fields": [],
+      "optional_fields": [],
+      "forward_env": ""
+    },
+    {
+      "name": "schema",
+      "method": "GET",
+      "path": "/api/reservas/schema",
+      "kind": "schema",
+      "resource": "reservas",
+      "description": "Esquema esperado del payload principal",
+      "required_fields": [],
+      "optional_fields": [],
+      "forward_env": ""
+    }
+  ],
+  "integrations": [
+    "whatsapp",
+    "render"
+  ],
+  "env_vars": [
+    {
+      "name": "PORT",
+      "required": false,
+      "purpose": "Puerto HTTP local o de Render",
+      "example": "10000"
+    },
+    {
+      "name": "APP_ENV",
+      "required": false,
+      "purpose": "Entorno operativo",
+      "example": "production"
+    },
+    {
+      "name": "FORWARD_WEBHOOK_URL",
+      "required": false,
+      "purpose": "Webhook de integracion externa",
+      "example": "https://n8n.example/webhook/forge"
+    }
+  ],
+  "storage": {
+    "enabled": true,
+    "mode": "jsonl",
+    "path": "storage/reservas.jsonl"
+  },
+  "notes": [
+    "Persistencia local para dev y QA; en Render no sustituye una base durable.",
+    "Forward webhook opcional para n8n, Formspree o integracion propia.",
+    "Piccolo debe validar el endpoint principal antes del deploy."
+  ],
+  "sample_payload": {
+    "nombre": "Cliente Demo",
+    "email": "demo@example.com",
+    "fecha": "2026-05-01",
+    "hora": "10:00",
+    "servicio": "valor-demo",
+    "notas": "valor-demo"
+  }
+}

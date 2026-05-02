@@ -1,0 +1,11 @@
+{
+  "primary_resource": "reservas",
+  "payload": {
+    "nombre": "Cliente Demo",
+    "email": "demo@example.com",
+    "fecha": "2026-05-01",
+    "hora": "10:00",
+    "servicio": "valor-demo",
+    "notas": "valor-demo"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "brand_name": "Atelier Uñas Esculpidas",
+  "layout_variant": "gallery_first",
+  "eyebrow": "Uñas esculpidas con acabado prolijo y reserva simple por WhatsApp",
+  "hero_title": "Uñas esculpidas prolijas para todos los dias o para una fecha especial",
+  "hero_subtitle": "Mira estilos, elegi el acabado que te guste y escribime para coordinar tu turno en Uruguay.",
+  "primary_cta": "Pedir turno",
+  "secondary_cta": "Ver galeria",
+  "peek_message": "Elegi una referencia, mira acabados reales y resolvemos tu turno en un solo mensaje.",
+  "section_labels": {
+    "nav_primary": "Galeria",
+    "nav_secondary": "Reserva",
+    "gallery_kicker": "Galeria",
+    "gallery_heading": "Trabajos recientes",
+    "services_kicker": "Servicios",
+    "services_heading": "Servicios y precios",
+    "benefits_kicker": "Antes de reservar",
+    "benefits_heading": "Lo que conviene ver rapido para confiar",
+    "process_kicker": "Reserva",
+    "process_heading": "Como reservar tu turno",
+    "proof_kicker": "Confianza",
+    "proof_heading": "Senales que sostienen una experiencia prolija",
+    "faq_kicker": "FAQ",
+    "faq_heading": "Antes de escribirme",
+    "contact_kicker": "Agenda"
+  },
+  "gallery_items": [
+    {
+      "title": "Set nude prolijo",
+      "note": "Acabado limpio para todos los dias.",
+      "image_alt": "Set nude prolijo",
+      "image_path": "assets/gallery-01.jpg"
+    },
+    {
+      "title": "Francesa fina",
+      "note": "Opcion clasica para oficina o evento.",
+      "image_alt": "Francesa fina",
+      "image_path": "assets/gallery-02.jpg"
+    },
+    {
+      "title": "Largo medio brillante",
+      "note": "Forma y terminacion protagonistas.",
+      "image_alt": "Largo medio brillante",
+      "image_path": "assets/gallery-03.jpg"
+    },
+    {
+      "title": "Diseno minimal",
+      "note": "Detalles finos sin recargar.",
+      "image_alt": "Diseno minimal",
+      "image_path": "assets/gallery-04.jpg"
+    },
+    {
+      "title": "Set para evento",
+      "note": "Inspiracion para fechas especiales.",
+      "image_alt": "Set para evento",
+      "image_path": "assets/gallery-05.jpg"
+    },
+    {
+      "title": "Acabado glossy",
+      "note": "Brillo y textura como disparador visual.",
+      "image_alt": "Acabado glossy",
+      "image_path": "assets/gallery-06.jpg"
+    }
+  ],
+  "metrics": [
+    "Disenos nude y francesa",
+    "Consulta por WhatsApp",
+    "Reserva simple desde el celular"
+  ],
+  "services": [
+    {
+      "title": "unas esculpidas",
+      "body": "Precio de referencia: 800 pesos. Opciones nude, francesa, glossy o con detalle segun el estilo que quieras llevar."
+    },
+    {
+      "title": "semipermanente",
+      "body": "Precio de referencia: 600. Espacio para relleno, recambio o seguimiento si queres sostener el diseno prolijo."
+    },
+    {
+      "title": "Disenos para todos los dias o eventos",
+      "body": "Podes venir con referencia propia o pedir una propuesta segun largo, forma y ocasion."
+    }
+  ],
+  "benefits": [
+    "Ves estilos reales antes de decidir que te queres hacer",
+    "El siguiente paso para reservar queda claro desde el celular",
+    "La propuesta transmite prolijidad, cuidado y buen gusto"
+  ],
+  "process": [
+    {
+      "title": "Mira referencias",
+      "body": "Revisa estilos, largos y acabados para ubicar rapido lo que te gustaria hacerte."
+    },
+    {
+      "title": "Mandame la idea",
+      "body": "Compartime una foto de referencia o contame el estilo que tenes en mente."
+    },
+    {
+      "title": "Coordinamos tu turno",
+      "body": "Seguimos por mensaje con disponibilidad, detalles y el siguiente paso para reservar."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Referencias claras",
+      "role": "Antes de reservar",
+      "quote": "La galeria te ayuda a comparar acabados, largos y estilos antes de decidir."
+    },
+    {
+      "name": "Coordinacion simple",
+      "role": "Contacto",
+      "quote": "El siguiente paso queda directo para consultar disponibilidad, mandar referencia y avanzar sin vueltas."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Puedo mandar una foto de referencia antes de reservar?",
+      "answer": "Si. Podes compartir una idea, un color o un acabado para orientar mejor el turno."
+    },
+    {
+      "question": "¿Atiendes estilos simples y tambien disenos para evento?",
+      "answer": "Si. La idea es adaptar largo, forma y detalle a lo que te haga sentir comoda."
+    },
+    {
+      "question": "¿Como coordinamos disponibilidad?",
+      "answer": "Escribime por el canal principal y seguimos con fecha, estilo y siguiente paso para confirmar."
+    },
+    {
+      "question": "¿Puedo consultar primero si todavia no se que hacerme?",
+      "answer": "Si. Podes preguntar con tiempo, mandar una referencia y ver opciones antes de decidir."
+    }
+  ],
+  "contact_heading": "Reserva tu turno",
+  "contact_intro": "Mandame el estilo que te gusto, la fecha que te sirve y cualquier detalle util para responderte con disponibilidad.",
+  "hero_image_caption": "Disenos de unas esculpidas con acabado prolijo y referencias visuales",
+  "project_type": "landing",
+  "market": "uruguay",
+  "idea": "Quiero landing para mi nail studio en Pocitos. Me llamo Vale, WhatsApp 091234567, esculpidas 800 pesos, semipermanente 600. Lunes a sábado 10 a 20hs. Instagram @valenails_mvd",
+  "vertical_key": "belleza"
+}
